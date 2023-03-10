@@ -1,0 +1,34 @@
+1. What are the differences between list and tuple? Which is faster and why?
+2. What is the lambda function in python? Explain with examples.
+3. What is monkey patching and what is the use of monkey patch?
+4. What is the importance of PEP rules
+5. Can we order a dictionary? How?
+6. Write a python program to right rotate a List by n
+Enter position to rotate list item: 3
+Sample input: [10, 20, 30, 40, 50, 60, 70]
+Expected output: [50, 60, 70, 10, 20, 30, 40]
+7. Difference between append and extend operations of list
+8. Create a dictionary where the key is an even number from the given list and the value
+will be the occurrence of that element in the list. input= [1,2,3,2,4,2,4,7,8,4,5,8,6,9,2]
+9. Write a function swap_element that contains two args which will be the position of
+elements present in the list. The function must swap the elements present in those
+positions.
+Input: [1,2,3,4,5,6,7,8] function: swap_element(arg1, arg2)
+10. Write the output of the program:
+match = ‘version’, input=’Upgraded_image_version_8.0.4.3’
+if match in input:
+print(‘YES’)
+else:
+print(‘NO’)
+11. Rewrite the program to get proper output
+Match = 'version'
+input=8
+print(Match+input)
+12. How is memory management done in python?
+13. When do you use generators in python? Give an example
+14. Give the scenarios, when you will get ‘ValueError’
+15. Write a program to multiply two given number without using “*” operation and any in built
+function
+16. Write a program to find the count of alphabet alone in the given alphanumeric string for
+Ex1: input=’abb24ccc8ddbbca1’ output=’a1b224c3d2b2c1a11’
+Ex2: input = ‘abc23’ output=’a1b1c123’

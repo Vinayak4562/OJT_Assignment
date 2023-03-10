@@ -1,0 +1,64 @@
+18. Write a python program where for every two hours it prints the pattern without using
+sleep function
+**********
+********
+******
+***
+*
+19. Write a program using decorators to print the traffic signal messages
+Expected output -
+RED : STOP
+YELLOW : SLOW DOWN
+GREEN : GO
+The decorator should be working in this order
+20. Write a python program for sort the given below list based last character of each word
+names_list = ['Prabhu', Rahul', 'Arunesh, 'Sonali', 'Rakshit']
+21. How do you open a file of large size, say around 10GB? So that program should not
+crash
+22. Write a function where month and year are taken as arguments which returns the output
+with all the dates of saturdays occuring the month
+23. Find the highest sum of the string by removing the duplicates for each iteration
+input=’1211’
+24. Write a python script to copy files from a directory D1 based on timestamp(current_date)
+to another directory D2 and delete the source directory D1. Whenever the script is called
+this program must run.   -----------------------  skip 
+25. Write a program to send a mail notification to customers regarding the arrival of goods
+on a daily basis. The admin email has a separate domain email address owned by your
+company.Do not forget to add cc candidates in customer’s mail.
+28. Write a Python program to remove the parenthesis area in a string using Regular
+Expression
+Sample data : ["example (.com)", "MSys", "github (.com)", "keka (.com)"]
+Expected Output:
+Example
+MSys
+github
+keka
+
+
+
+1. Write a program to reverse a number without using any inbuit function.
+2. Given a list of first 10 natural numbers, write a program to find the square of all even numbers
+and cube of all odd numbers and store them in another list
+3. Given a tuple (“Msys”, “Technologies”, “2007”), add “Python” at the end of this tuple and the
+output should also be in the form of tuple. Make a note that tuples are immutable in nature so you
+need to find some idea to make modification and print the updated tuple.
+4. In the dictionary {‘India’:’New Delhi’, ‘USA’:’Washington D.C.’, ‘Nepal’:’Kathmandu’} list out
+all the keys in a list named as ‘list_keys’ and list out all the values in a list named as ‘list_values’.
+Also find out the value of key ‘Australia’ in the list and as it is not existing in the list print ‘NA’ as
+its value.
+5. Given a dictionary {‘Msys Technologies’:’Sanjay Sehgal’, ‘Infosys’:’Salil Parekh’,
+‘TCS’:’Rajesh Gopinathan’, ‘Wipro’:’Thierry Delaporte’} make a list of all the values associated
+with keys in alphabetically sorted order.
+6. Write a program to extract the words starting with lowercase letter present in the list. [‘Nissan’,
+‘maruti’, ‘hyundai’, ‘Volkswagen’, ‘audi’]
+7. Write a program using dictionary comprehension which will contain the key value pair of i:i**2.
+Value of ‘i’ will start from 1 and will go upto 10.
+8. Take the input marks from user using input() function and find out the grade of the students. Note
+the grading will be in this manner – (100 – 91) – A1, (90-81) – A2, (80-71) – B1, (70-61) – B2, (60-
+51) – C1 (50-40) – C2 and less than 40 students will ‘Fail’. Also make sure user should input the
+marks in the range 0<=marks<=100, if user will input some other marks in should print invalid
+marks.
+9. Given a list [1,2,1,5,9,10,2,2,7,5,3,10,8,9,15,17,21,16,17,90] find the difference between the
+length of the list and the count of unique elements in the list.
+10. In the given String -- ‘MsYs TecHNOlogiEs iS a gREat place To woRk’ find the count of
+lowercase and uppercase letters.
