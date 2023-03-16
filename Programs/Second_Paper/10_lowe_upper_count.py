@@ -9,9 +9,10 @@ for char in my_string:                                      #  to Iterate throug
         lower_count += 1
     elif char.isupper():
         upper_count += 1
-
-print(f"Number of lowercase letters: {lower_count}")            # Number of lowercase letters: 20
+        
 print(f"Number of uppercase letters: {upper_count}")            # Number of uppercase letters: 13
+print(f"Number of lowercase letters: {lower_count}")            # Number of lowercase letters: 20
+
 
 
 
