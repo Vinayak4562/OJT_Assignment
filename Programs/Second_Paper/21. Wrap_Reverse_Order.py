@@ -7,6 +7,6 @@ def reverse_wrap_string(s, width):
     return "\n".join(lines[::-1])
 
 s = "Hello, welcome to this organisation."
-width = 4
+width = 3
 result = reverse_wrap_string(s, width)
 print(result)

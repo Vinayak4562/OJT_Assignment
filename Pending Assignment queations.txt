@@ -1,0 +1,102 @@
+13. Give a real time example for multithreading. Is it a good idea to use multi-thread to
+speed your Python code?
+
+
+24. Write a python script to copy files from a directory D1 based on timestamp(current_date)
+to another directory D2 and delete the source directory D1. Whenever the script is called
+this program must run.
+
+25. Write a program to send a mail notification to customers regarding the arrival of goods
+on a daily basis. The admin email has a separate domain email address owned by your
+company.Do not forget to add cc candidates in customer’s mail.
+
+26. You are given a string S. Your task is to find the indices of the start and end of string k in S
+The first line contains the string S.The second line contains the string k.
+Print the tuple in this format: (start _index, end _index). If no match is found, print (-1,-1).
+
+27. Write a Python class to check the validity of a string of parentheses, '(', ')', '{', '}', '[' and '].
+These brackets must be closed in the correct order, for example "()" and "()[]{}" are valid
+but "[)", "({[)]" and "{{{" are invalid
+
+29. Write a regular expression to find the html tags that are more than 4 letters.
+Note: Html tags can be found inside <> characters and closing html tags can be found in
+the same format after / character. </>
+i.e.: <param> </param>
+
+30. How does the context manager work in python? Explain the internal methods. Write a
+custom sample context manager
+
+
+Second_Assignment:
+
+24. You have given a string str1 = "abcbaefabcabchijkl"
+your task is to find the combination of given word without repetition, present in the string , given 
+word 'abc'
+o/p = 7
+explaination :
+abc, cba,
+cba,
+bca, acb
+cab, bac
+
+26. Design a binary tree structure in python/any preferred language in such a way that it is in the 
+form of a triangle and built on AND logic. Initially it looks like the below structure.
+L6 1
+L5 1 1
+L4 1 1 1
+L3 1 1 1 1
+L2 1 1 1 1 1
+L1 1 1 1 1 1 1
+If any value at L1 level is updated then the whole tree should get updated accordingly. For example,
+if third value at L1 level is updated to 0 then the tree should get updated as below.
+L6 0
+L5 0 0
+L4 0 0 0
+L3 0 0 0 1
+L2 1 0 0 1 1
+L1 1 1 0 1 1 1
+
+27. Need to find minimum number of new chair purchase for work area with simulated set of array 
+values.
+C - A new employee comes to work area and new chair need to purchase
+R - Employee from work area goes to meeting room and free up the chair
+U - Employee comes from meeting room and occupy the chair
+L - Leaves the work area and free up the chair
+Input :
+n = 3
+simulated value : ['CCRLU', 'CRLCUC', 'CCCC']
+Output:
+2
+2
+4
+
+28. Given a string s and an integer k, reverse the first k characters for every 2k characters counting
+from the start of the string.
+If there are fewer than k characters left, reverse all of them. 
+If there are less than 2k but greater than or equal to k characters, 
+then reverse the first k characters and leave the other as original.
+
+Input: s = "abcdefg", k = 2
+Output: "bacdfeg"
+Input: s = "abcd", k = 2
+Output: "bacd"
+
+29. Write an automation script using seleniumn which should choose the desired product from any e-commerce site such as flipkart or 
+amazon add it to the cart (make sure you should also login using the automation script) and then redirect you to the payment page. 
+As payment will require to get OTP info and bank details, you can stop your work till the payment page. 
+If you really want to explore more then you can explore how you can automate the payment procedure too.
+Also please try to do this usecase for the automation --
+1) log in to Flipkart and search for dell laptop in Search.
+2) On the left side, choose the processor as Core i5.
+3) Fetch the laptop details and print the output like Name, model, price, RAM, etc.
+
+
+30. Write an automation script which should automate marking the attendence in Keka portal. 
+Try to automate the marking for your username. This may require you to do extensive research as Keka login is under company. 
+So please do not restrict your exploration
+
+
+Third_Assignment:
+
+Till 7 problems are compleated 
+Still i am working on it sir.

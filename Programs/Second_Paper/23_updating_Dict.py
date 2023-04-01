@@ -1,18 +1,30 @@
+dict1 = {'name': 'Msys', 'Place': 'Pune'}
+dict2 = {'EmpID': 1, 'Salary': 50000}
+dict1.update(dict2)                         # mearging the Dictinory dict1 and dict2.
+print(f'After Updating mearging: {dict1}')
 
-dict1 = {'name': 'Msys', 'Place': 'Pune'}                   # Creating the dictionarie dict1
-dict2 = {'EmpID': 1, 'Salary': 50000}                       # Creating the dictionarie dict2
+salary = dict1['Salary']
+new_salary = int(salary * 1.1)              # 10% increment in salary
+dict1['Salary'] = new_salary                # new salary apedated.
+print(f'After 10% incrimenting: {dict1}')
 
-dict_merged = {**dict1, **dict2}                            # Merging the dictionaries into a single dictionary
+dict1['age'] = 35                           # Age updated here
+print(f'After Updating the Age: {dict1}')
 
-dict_merged['Salary'] = dict_merged['Salary'] * 1.1         # Updating the salary by 10%
+keys = ()
+values = ()
 
-dict_merged['Age'] = 35                                     # Updating the age to 35 (assuming the age is not in any of the dictionaries)
-print("Dictionarie after updating:",dict_merged)
+for key, value in dict1.items():             # this loop will run till all the Keys and Values are itterated
+    keys += (key,)                           # upadting key in keys tuple
+    values += (value,)                       # upadting value in values tuple
 
-values_tuple = tuple(dict_merged.values())                  # Extracting and printing all the values in tuple
-keys_tuple = tuple(dict_merged.keys())                      # Extracting and printing all the keys in tuple
-print("Values tuple:", values_tuple)
-print("Keys tuple:", keys_tuple)
+print(f'Keys in Tuple: {keys}')
+print(f'Values in Tuple: {values}')
 
-del dict_merged['Age']                                      # Deleting the element with key 'Age' and printing the dictionary elements
-print("Merged dictionary after deleting 'Age' element:", dict_merged)
+dict1.pop('age')                            # Removing the Age from dictionary 
+# print(f'After removing the Age: {dict1}')
+
+# dict1 = {'name': 'Msys', 'Place': 'Pune'}
+# dict2 = {'EmpID': 1, 'Salary': 50000}
+# dict = {**dict1, **dict2}
+# print(dict)

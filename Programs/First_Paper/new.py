@@ -18,20 +18,20 @@
 #     print()
 
 
-def traffic_signal_decorator(func):
-    def wrapper():
-        print("RED : STOP")
-        func()
-        print("YELLOW : SLOW DOWN")
-        func()
-        print("GREEN : GO")
-    return wrapper
+# def traffic_signal_decorator(func):
+#     def wrapper():
+#         print("RED : STOP")
+#         func()
+#         print("YELLOW : SLOW DOWN")
+#         func()
+#         print("GREEN : GO")
+#     return wrapper
 
-@traffic_signal_decorator
-def traffic_signal():
-    pass
+# @traffic_signal_decorator
+# def traffic_signal():
+#     pass
 
-traffic_signal()
+# traffic_signal()
 
 
 # RED : STOP
@@ -120,7 +120,126 @@ traffic_signal()
 #     result = re.sub(reg_exp, "", string) #re.sub(pattern, repl, string) is used to substitute 
 #     print(result)   					#occurrences of a pattern in a string with a replacement string.
 
-	   									 
-
-  
+# n = int(input())
+# for i in range(n+1):
+#     for j in range (i):
+#         print("*", end = " ")
+#         i -=1
+#         j -= 1
+#     print() 
    
+
+# simulated = ['CCRLU', 'CRLCUC', 'CCCC']
+# avl = 0
+# nc = 0
+# for i in simulated:
+#     for j in i:
+#         if j == "C" :
+#             if avl == 0 :
+#                 nc += 1
+#             else:
+#                 avl += 1
+#         elif j == "R":
+#             avl -= 1
+#         elif j == "L":
+#             avl -= 1
+#         elif j == "U":
+#             avl += 1
+#     print(nc)
+
+#     nc = 0
+#     avl = 0
+
+
+
+
+# a = "abcdef"
+# a = list(a)
+# n = len(a)
+# k = 2
+# for i in range(0,n,2*k):
+#     start = i
+#     end = min(i+k-1, n-1)
+#     while start<end:
+#         a[start], a[end] = a[end], a[start]
+#         start += 1
+#         end -= 1
+# print("".join(a))
+
+# from selenium import webdriver
+# from selenium.webdriver.chrome.service import Service
+# from selenium.webdriver.common.by import By
+
+# service_obj = Service("D:/web_driver/chromedriver.exe")
+
+# options = webdriver.ChromeOptions()
+# options.add_experimental_option('detach', True)
+# driver = webdriver.Chrome(service=service_obj, options=options)
+# driver.get("https://www.amazon.in/")
+# driver.maximize_window()
+# driver.implicitly_wait(15)
+
+# driver.find_element(By.CLASS_NAME,"nav-line-1-container").click()
+# driver.find_element(By.ID,"ap_email").send_keys("vishalhirandagi33@gmail.com")
+# driver.find_element(By.ID,"continue").click()
+# driver.find_element(By.NAME,"password").send_keys("Vishal#1432")
+# driver.find_element(By.ID,"signInSubmit").click()
+# driver.find_element(By.ID,"twotabsearchtextbox").send_keys("Dell laptop")
+# driver.find_element(By.ID,"nav-search-submit-button").click()
+# driver.find_element(By.CLASS_NAME, "s-image").click()
+# list_windows = driver.window_handles
+# driver.switch_to.window(list_windows[1])
+# driver.find_element(By.ID,"add-to-cart-button").click()
+# driver.find_element(By.ID, "attach-view-cart-button-form").click()
+# driver.find_element(By.ID,"desktop-ptc-button-celWidget").click()
+# driver.find_element(By.XPATH,'//*[@id="shipToThisAddressButton"]/span').click()
+
+
+# # 30. Write an automation script which should automate marking the attendence in Keka portal. Try to automate the marking for your username. This may require you to do extensive research as Keka login is under company. So please do not restrict your exploration.
+
+# from selenium import webdriver
+# from selenium.webdriver.chrome.service import Service
+# from selenium.webdriver.common.by import By
+
+# service_obj = Service("D:/web_driver/chromedriver.exe")
+
+# options = webdriver.ChromeOptions()
+# options.add_experimental_option('detach', True)
+# driver = webdriver.Chrome(service=service_obj, options=options)
+# driver.get("https://msys.keka.com/")
+
+# driver.maximize_window()
+# driver.implicitly_wait(35)
+
+# driver.find_element(By.CLASS_NAME,"login-option").click()
+
+# driver.find_element(By.ID,"identifierId").send_keys("vhirandagi@msystechnologies.com")
+
+# driver.find_element(By.XPATH,"//*[@id='identifierNext']/div/button/span").click()
+
+# driver.find_element(By.XPATH,"//*[@id='password']/div[1]/div/div[1]/input").send_keys("Vishal#1432")
+
+# driver.find_element(By.XPATH,'//*[@id="passwordNext"]/div').click()
+
+# driver.find_element(By.XPATH,'//*[@id="accordion"]/li[2]').click()
+
+# driver.find_element(By.XPATH,'/html/body/xhr-app-root/div/employee-me/div/ul/li[2]').click()
+
+# driver.find_element(By.XPATH,'/html/body/xhr-app-root/div/employee-me/div/employee-attendance/div/div/div/employee-attendance-stats/div/div[3]/employee-attendance-request-actions/div/div/div/div/div[2]/div/div[2]/a[1]').click()
+
+# driver.find_element(By.XPATH,'/html/body/modal-container/div[2]/div/employee-attendance-working-remotely-request/div[2]/form/div/div/div[1]/div[1]/div[1]/div/span[2]').click()
+
+# today_date = driver.find_element(By.XPATH,'/html/body/bs-daterangepicker-container/div/div/div/div/bs-days-calendar-view[1]/bs-calendar-layout/div[2]/table/tbody/tr[4]/td[3]/span').click()
+# today_date = driver.find_element(By.XPATH,'/html/body/bs-daterangepicker-container/div/div/div/div/bs-days-calendar-view[1]/bs-calendar-layout/div[2]/table/tbody/tr[4]/td[3]/span').click()
+
+
+n = '912319'
+res = '0'
+for i in range(len(n)):
+    val = n[:i]+n[i+1:]
+    # print(val)
+    if val > res:
+        res = val
+
+print(res)
+

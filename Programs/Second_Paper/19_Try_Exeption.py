@@ -8,11 +8,11 @@ def remove_char(string, char):
 input_string = input("Enter a string: ")
 input_char = input("Enter a character to remove: ")
 
-try:
-    output_string = remove_char(input_string, input_char)
-    print("Result:", output_string)
-except ValueError as e:
-    print(e)
+# try:
+output_string = remove_char(input_string, input_char)
+print("Result:", output_string)
+# except ValueError as e:
+#     print(e)
     
 
 # Out Put:
